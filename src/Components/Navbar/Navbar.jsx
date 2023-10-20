@@ -57,7 +57,12 @@ const Navbar = () => {
             </a>
           </li>
           <button className="btn">
-            <a href="">Resume</a>
+            <a
+              href="Aidar Shaidullin resume.docx"
+              download="Aidar Shaidullin resume.docx"
+            >
+              Resume
+            </a>
           </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">

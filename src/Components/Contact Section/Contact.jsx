@@ -47,6 +47,7 @@ const Contact = () => {
                   href="https://www.instagram.com/aydar013/"
                   className="flex"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Send Message <TbArrowBigRightLines className="icon" />
                 </a>
@@ -63,6 +64,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/in/aidar-shaidullin-424010279/"
                   className="flex"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Send Message <TbArrowBigRightLines className="icon" />
                 </a>

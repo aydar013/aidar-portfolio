@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { TbArrowBigRightLines } from "react-icons/tb";
 import { FiChevronsDown } from "react-icons/fi";
 
@@ -9,13 +9,18 @@ const Home = () => {
     <section id="home" className="home section">
       <div className="leftIcons">
         <div className="socials grid">
-          <a href="https://github.com/aydar013" target="_blank">
+          <a
+            href="https://github.com/aydar013"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub />
           </a>
 
           <a
             href="https://www.linkedin.com/in/aidar-shaidullin-424010279/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin />
           </a>
@@ -47,7 +52,11 @@ const Home = () => {
       <div className="rightEmail">
         <div>
           <div className="emailAddress">
-            <a href="https://mailto:aydar013@gmail.com" target="_blank">
+            <a
+              href="https://mailto:aydar013@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               aydar013@gmail.com
             </a>
           </div>

@@ -62,14 +62,14 @@ const Projects = () => {
               <div className="singleProject" key={id}>
                 <div className="externalLinks flex">
                   <div className="githubIcon">
-                    <a href={github} target="_blank">
+                    <a href={github} target="_blank" rel="noreferrer">
                       <AiFillGithub className="icon" />
                     </a>
                   </div>
                 </div>
 
                 <div className="imgDev">
-                  <a href={link} target="_blank">
+                  <a href={link} target="_blank" rel="noreferrer">
                     <img src={image} alt={title} />
                   </a>
                 </div>
